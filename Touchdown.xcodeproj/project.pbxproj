@@ -46,7 +46,7 @@
 		870A53B82DFFC5F10072F5EE /* category.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
 		870A53B92DFFC5F10072F5EE /* player.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
 		870A53BA2DFFC5F10072F5EE /* product.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
-		870A53BF2E0A5D600072F5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		870A53BF2E0A5D600072F5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -118,17 +118,20 @@
 		870A53B12DFFC5470072F5EE /* Touchdown */ = {
 			isa = PBXGroup;
 			children = (
+				870A53C02E0A5EBD0072F5EE /* App */,
+				870A53B62DFFC5D60072F5EE /* Data */,
+				870A53C62E0A5F140072F5EE /* Utilities */,
+				870A53C52E0A5F0C0072F5EE /* Extension */,
+				870A53C12E0A5EC50072F5EE /* View */,
+				870A53C42E0A5F060072F5EE /* Model */,
 				870A53BF2E0A5D600072F5EE /* Info.plist */,
-				870A53B62DFFC5D60072F5EE /* JSON */,
-				870A53AF2DFFC5470072F5EE /* ContentView.swift */,
-				870A53B02DFFC5470072F5EE /* TouchdownApp.swift */,
 				870A53AE2DFFC5470072F5EE /* Assets.xcassets */,
 				870A53AD2DFFC5470072F5EE /* Preview Content */,
 			);
 			path = Touchdown;
 			sourceTree = "<group>";
 		};
-		870A53B62DFFC5D60072F5EE /* JSON */ = {
+		870A53B62DFFC5D60072F5EE /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				870A53B72DFFC5F10072F5EE /* brand.json */,
@@ -136,7 +139,60 @@
 				870A53B92DFFC5F10072F5EE /* player.json */,
 				870A53BA2DFFC5F10072F5EE /* product.json */,
 			);
-			path = JSON;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		870A53C02E0A5EBD0072F5EE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				870A53AF2DFFC5470072F5EE /* ContentView.swift */,
+				870A53B02DFFC5470072F5EE /* TouchdownApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		870A53C12E0A5EC50072F5EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				870A53C32E0A5ED70072F5EE /* Detail */,
+				870A53C22E0A5ED10072F5EE /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		870A53C22E0A5ED10072F5EE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		870A53C32E0A5ED70072F5EE /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		870A53C42E0A5F060072F5EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		870A53C52E0A5F0C0072F5EE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		870A53C62E0A5F140072F5EE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
