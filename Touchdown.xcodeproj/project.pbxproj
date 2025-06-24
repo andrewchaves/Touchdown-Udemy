@@ -15,6 +15,8 @@
 		870A53BC2DFFC5F10072F5EE /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 870A53B82DFFC5F10072F5EE /* category.json */; };
 		870A53BD2DFFC5F10072F5EE /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 870A53BA2DFFC5F10072F5EE /* product.json */; };
 		870A53BE2DFFC5F10072F5EE /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 870A53B92DFFC5F10072F5EE /* player.json */; };
+		870A53C82E0A5F980072F5EE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A53C72E0A5F910072F5EE /* Constant.swift */; };
+		870A53CC2E0A61520072F5EE /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A53CB2E0A61520072F5EE /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		870A53B92DFFC5F10072F5EE /* player.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
 		870A53BA2DFFC5F10072F5EE /* product.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		870A53BF2E0A5D600072F5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870A53C72E0A5F910072F5EE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		870A53CB2E0A61520072F5EE /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -163,6 +167,7 @@
 		870A53C22E0A5ED10072F5EE /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				870A53CB2E0A61520072F5EE /* FooterView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 		870A53C62E0A5F140072F5EE /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				870A53C72E0A5F910072F5EE /* Constant.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -343,7 +349,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				870A53B22DFFC5470072F5EE /* ContentView.swift in Sources */,
+				870A53CC2E0A61520072F5EE /* FooterView.swift in Sources */,
 				870A53B32DFFC5470072F5EE /* TouchdownApp.swift in Sources */,
+				870A53C82E0A5F980072F5EE /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
