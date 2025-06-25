@@ -149,8 +149,8 @@
 		870A53C02E0A5EBD0072F5EE /* App */ = {
 			isa = PBXGroup;
 			children = (
-				870A53AF2DFFC5470072F5EE /* ContentView.swift */,
 				870A53B02DFFC5470072F5EE /* TouchdownApp.swift */,
+				870A53AF2DFFC5470072F5EE /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
