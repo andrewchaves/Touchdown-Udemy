@@ -21,6 +21,7 @@
 		870A53D02E10E8720072F5EE /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A53CF2E10E8720072F5EE /* LogoView.swift */; };
 		870A53D22E1242160072F5EE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A53D12E1242160072F5EE /* Player.swift */; };
 		870A53D42E12438C0072F5EE /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A53D32E12438C0072F5EE /* CodableBundleExtension.swift */; };
+		870A53D62E23537B0072F5EE /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A53D52E23537B0072F5EE /* FeaturedItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		870A53CF2E10E8720072F5EE /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		870A53D12E1242160072F5EE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		870A53D32E12438C0072F5EE /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		870A53D52E23537B0072F5EE /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -178,6 +180,7 @@
 				870A53CB2E0A61520072F5EE /* FooterView.swift */,
 				870A53CD2E0BB0D00072F5EE /* NavigationBarView.swift */,
 				870A53CF2E10E8720072F5EE /* LogoView.swift */,
+				870A53D52E23537B0072F5EE /* FeaturedItemView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				870A53D02E10E8720072F5EE /* LogoView.swift in Sources */,
 				870A53CC2E0A61520072F5EE /* FooterView.swift in Sources */,
 				870A53B32DFFC5470072F5EE /* TouchdownApp.swift in Sources */,
+				870A53D62E23537B0072F5EE /* FeaturedItemView.swift in Sources */,
 				870A53D42E12438C0072F5EE /* CodableBundleExtension.swift in Sources */,
 				870A53D22E1242160072F5EE /* Player.swift in Sources */,
 				870A53C82E0A5F980072F5EE /* Constant.swift in Sources */,
