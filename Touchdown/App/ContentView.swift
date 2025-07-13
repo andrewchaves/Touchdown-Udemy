@@ -11,17 +11,25 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 0) {
             NavigationBarView()
-                .padding()
+                .padding(.horizontal, 15)
+                .padding(.bottom)
                 .background(.white)
                 .shadow(color: .black.opacity(0.05),
-                        radius: 5,
-                        x: 0,
-                        y: 5)
+                        radius: 5.0,
+                        x: 0.0,
+                        y: 5.0)
             
-            Spacer()
+            ScrollView(.vertical, showsIndicators: false, content: {
+                VStack(spacing: 0.0) {
+                    FeaturedTabView()
+                        .frame(height: 280.0)
+                        .padding(.vertical, 20.0)
+                    FooterView()
+                        .padding(.horizontal)
+                }//: VStack
+            })//: ScrollView
             
-            FooterView()
-                .padding(.horizontal)
+            
         }//: VStack
         .background(backgroundColor.ignoresSafeArea(.all, edges: .all))
     }
