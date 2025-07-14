@@ -24,6 +24,7 @@
 		870A53D62E23537B0072F5EE /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A53D52E23537B0072F5EE /* FeaturedItemView.swift */; };
 		87AA351B2E235DE70042AE06 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA351A2E235DE70042AE06 /* FeaturedTabView.swift */; };
 		87AA351D2E24AB410042AE06 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA351C2E24AB3D0042AE06 /* Category.swift */; };
+		87AA351F2E24AD310042AE06 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA351E2E24AD310042AE06 /* CategoryItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		870A53D52E23537B0072F5EE /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		87AA351A2E235DE70042AE06 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		87AA351C2E24AB3D0042AE06 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		87AA351E2E24AD310042AE06 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -186,6 +188,7 @@
 				870A53CF2E10E8720072F5EE /* LogoView.swift */,
 				870A53D52E23537B0072F5EE /* FeaturedItemView.swift */,
 				87AA351A2E235DE70042AE06 /* FeaturedTabView.swift */,
+				87AA351E2E24AD310042AE06 /* CategoryItemView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				870A53D22E1242160072F5EE /* Player.swift in Sources */,
 				870A53C82E0A5F980072F5EE /* Constant.swift in Sources */,
 				87AA351B2E235DE70042AE06 /* FeaturedTabView.swift in Sources */,
+				87AA351F2E24AD310042AE06 /* CategoryItemView.swift in Sources */,
 				870A53CE2E0BB0D00072F5EE /* NavigationBarView.swift in Sources */,
 				87AA351D2E24AB410042AE06 /* Category.swift in Sources */,
 			);
