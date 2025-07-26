@@ -5,14 +5,22 @@
 //  Created by Andrew Vale on 25/07/25.
 //
 
-import SwiftUI
+import Foundation
 
-struct Product: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct Product: Codable, Identifiable {
+    let id: Int
+    let name: String
+    let imageURL: String
+    let price: String
+    let description: String
+    let color: [Double]
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name
+        case imageURL = "image"
+        case price
+        case description
+        case color
     }
-}
-
-#Preview {
-    Product()
 }

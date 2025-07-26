@@ -23,6 +23,8 @@
 		870A53D42E12438C0072F5EE /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A53D32E12438C0072F5EE /* CodableBundleExtension.swift */; };
 		870A53D62E23537B0072F5EE /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A53D52E23537B0072F5EE /* FeaturedItemView.swift */; };
 		875C746B2E31D2500072415E /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C746A2E31D2500072415E /* TitleView.swift */; };
+		875C746D2E347F550072415E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C746C2E347F550072415E /* Product.swift */; };
+		875C746F2E3480E60072415E /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C746E2E3480E60072415E /* ProductItemView.swift */; };
 		87AA351B2E235DE70042AE06 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA351A2E235DE70042AE06 /* FeaturedTabView.swift */; };
 		87AA351D2E24AB410042AE06 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA351C2E24AB3D0042AE06 /* Category.swift */; };
 		87AA351F2E24AD310042AE06 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA351E2E24AD310042AE06 /* CategoryItemView.swift */; };
@@ -68,6 +70,8 @@
 		870A53D32E12438C0072F5EE /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		870A53D52E23537B0072F5EE /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		875C746A2E31D2500072415E /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		875C746C2E347F550072415E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		875C746E2E3480E60072415E /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
 		87AA351A2E235DE70042AE06 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		87AA351C2E24AB3D0042AE06 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		87AA351E2E24AD310042AE06 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
@@ -198,6 +202,7 @@
 				87AA35202E2753200042AE06 /* CategoryGridView.swift */,
 				87AA35222E2755530042AE06 /* SectionView.swift */,
 				875C746A2E31D2500072415E /* TitleView.swift */,
+				875C746E2E3480E60072415E /* ProductItemView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 			children = (
 				87AA351C2E24AB3D0042AE06 /* Category.swift */,
 				870A53D12E1242160072F5EE /* Player.swift */,
+				875C746C2E347F550072415E /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -383,6 +389,7 @@
 			files = (
 				870A53B22DFFC5470072F5EE /* ContentView.swift in Sources */,
 				870A53D02E10E8720072F5EE /* LogoView.swift in Sources */,
+				875C746F2E3480E60072415E /* ProductItemView.swift in Sources */,
 				870A53CC2E0A61520072F5EE /* FooterView.swift in Sources */,
 				870A53B32DFFC5470072F5EE /* TouchdownApp.swift in Sources */,
 				870A53D62E23537B0072F5EE /* FeaturedItemView.swift in Sources */,
@@ -390,6 +397,7 @@
 				870A53D22E1242160072F5EE /* Player.swift in Sources */,
 				87AA35212E2753200042AE06 /* CategoryGridView.swift in Sources */,
 				870A53C82E0A5F980072F5EE /* Constant.swift in Sources */,
+				875C746D2E347F550072415E /* Product.swift in Sources */,
 				87AA351B2E235DE70042AE06 /* FeaturedTabView.swift in Sources */,
 				87AA35232E2755530042AE06 /* SectionView.swift in Sources */,
 				87AA351F2E24AD310042AE06 /* CategoryItemView.swift in Sources */,
